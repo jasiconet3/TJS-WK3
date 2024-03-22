@@ -1,1 +1,40 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>The Just Projects: Jasper Tasie - Week 3 Task</title>
+</head>
+<body>
+    <div>
+        <form>
+        <h1>Sign Up</h1>
+        <p>To get started create an account with Lumierefolio</p>  <br />
+        <label for="uname">USERNAME</label>
+        <input class="default" type="text" id="uname" name="uname" placeholder="Yourname"></input>
+     <br />
+        <label for="email">EMAIL ADDRESS</label>
+        <input class="default" type="email" id="email" name="email" placeholder="you@company"></input>
+    <br />
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" name="password" placeholder="choose a password"></input>
+     <br />
+        <label for="cpassword">CONFIRM PASSWORD</label>
+        <input type="password" id="cpassword" name="cpassword" placeholder="Retype password"></input>
+     <br/>
+        <input class="checkbox" type="checkbox" id="rememberme" name="rememberme"></input>
+        <label for="rememberme">Remember me for 30days</label>
+        <a class="forgotpassword" href="/forgotpassword.html">Forgot password</a>
+     <br />
+        <button class="submit" action="Submit">Login into Account</button>
+    <br />
+        <button class="google" action="api.get:google-particulars">Continue with Google</button>
+    <br />
+        <button class="twitter" action="api.get:twitter-particulars">Continue with Twitter</button>
+    <br />
+        <p>Are you new here? <a class="createnew" href="/signup.html"> Create account</a></p>  
+    </form>
+    </div>
+</body>
+</html>
