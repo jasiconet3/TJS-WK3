@@ -44,7 +44,7 @@ a.forgotpassword    {
 }
 
 input   {
-width: 93%;
+width: 95%;
 padding-top: 10px; 
 padding-left: 10px; 
 padding-bottom: 10px;
@@ -82,16 +82,16 @@ button  {
         vertical-align: text-top;
     }
 
-button.google   {
-        background-image: url(google.png);
+.google   {
+        background-image: url(/google.png);
         background-repeat: no-repeat;
         background-size: 10%;
         background-position-y: center;
         background-position-x: 5%;
     }
 
-button.twitter  {
-        background-image: url(twitter.jpeg);
+.twitter  {
+        background-image: url(/twitter.jpeg);
         background-repeat: no-repeat;
         background-size: 12.5%;
         background-position-y: center;
