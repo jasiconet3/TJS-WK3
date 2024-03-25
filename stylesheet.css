@@ -44,7 +44,7 @@ a.forgotpassword    {
 }
 
 input   {
-width: 100%;
+width: 93%;
 padding-top: 10px; 
 padding-left: 10px; 
 padding-bottom: 10px;
@@ -80,5 +80,8 @@ button  {
         padding-inline: 0px;
         width: 14px;
         vertical-align: text-top;
+    }
+
+    button.google   {
 
     }
