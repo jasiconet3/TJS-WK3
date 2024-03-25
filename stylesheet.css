@@ -83,7 +83,7 @@ button  {
     }
 
 button.google   {
-        background-image: url(/google.png);
+        background-image: url(google.png);
         background-repeat: no-repeat;
         background-size: 10%;
         background-position-y: center;
@@ -91,7 +91,7 @@ button.google   {
     }
 
 button.twitter  {
-        background-image: url(/twitter.jpeg);
+        background-image: url(twitter.jpeg);
         background-repeat: no-repeat;
         background-size: 12.5%;
         background-position-y: center;
